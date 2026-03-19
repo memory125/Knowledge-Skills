@@ -1,0 +1,47 @@
+# Git ignore file for Knowledge Skills
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node modules
+node_modules/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+.env.local
+
+# Backup files
+*.bak
+*.backup
+
+# Generated videos (large files)
+*.mp4
+*.webm
+*.gif
+
+# Generated reports
+reports/
+*.pdf
+*.html

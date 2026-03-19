@@ -1,0 +1,19 @@
+{
+  "name": "knowledge-explainer-video-renderer",
+  "version": "1.0.0",
+  "description": "Puppeteer WebGL video renderer for knowledge explainer",
+  "main": "generators/video_renderer_puppeteer.js",
+  "scripts": {
+    "build": "tsc generators/video_renderer_puppeteer.ts --outDir generators --module commonjs --target es2020 --esModuleInterop --resolveJsonModule",
+    "test": "node generators/run_puppeteer_renderer.py"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/fs-extra": "^11.0.4",
+    "typescript": "^5.3.0"
+  }
+}
